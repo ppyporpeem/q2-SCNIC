@@ -1,4 +1,4 @@
-{% set version = "2018.11.0" %}
+{% set version = "201ต.1" %}
 
 package:
   name: q2-scnic
@@ -19,8 +19,8 @@ requirements:
   run:
     - python =3.5.*
     - scnic >=0.6.*
-    - qiime2 =2018.11*
-    - q2-types =2018.11.*
+    - qiime2 =2019.1*
+    - q2-types =2019.1.*
 
 test:
   imports:
@@ -28,7 +28,7 @@ test:
     - qiime2.plugins.SCNIC
 
 about:
-  home: https://github.com/shafferm/q2-SCNIC
+  home: https://github.com/ppyporpeem/q2-SCNIC
   license: BSD
   license_file: LICENSE
-  summary: "q2-SCNIC: a qiime2 plugin for SCNIC (https://github.com/shafferm/SCNIC)"
+  summary: "q2-SCNIC: a qiime2 plugin for SCNIC (https://github.com/shafferm/SCNIC); updated for 2019.1"
