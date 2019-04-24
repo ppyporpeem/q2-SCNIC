@@ -20,7 +20,7 @@ requirements:
     - python =3.5.*
     - scnic >=0.6.*
     - qiime2 =2019.1*
-    - q2-types =2019.1.*
+    - q2-types =2019.1*
 
 test:
   imports:
