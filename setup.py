@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-__version__ = '2018.8'
+__version__ = '2019.1'
 
 setup(
     name='q2-SCNIC',
@@ -11,7 +11,7 @@ setup(
     author_email="michael.shaffer@ucdenver.edu",
     description=(
         "QIIME2 plugin for using SCNIC."),
-    url="https://github.com/shafferm/q2-SCNIC",
+    url="https://github.com/ppyporpeem/q2-SCNIC",
     package_data={
         'q2_SCNIC': ['citations.bib']
     },
